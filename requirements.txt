@@ -6,20 +6,19 @@ langchain-community==0.2.6
 langchain-core==0.2.10
 langchain-openai==0.1.13
 langchain-text-splitters==0.2.2
-langchain_huggingface
+# langchain_huggingface  <-- REMOVE or specify actual package if it exists
 langsmith==0.1.82
 numpy==1.26.4
 pillow==10.3.0
 PyMuPDF==1.24.9
-PyMuPDFb==1.24.9
 pytesseract==0.3.13
 regex==2024.5.15
 requests==2.32.3
 safetensors==0.4.3
-sentence-transformers
+sentence-transformers==2.6.1
 sentencepiece==0.2.0
 streamlit==1.36.0
 tokenizers==0.19.1
 transformers==4.42.3
-pdf2image
-opencv-python
+pdf2image==1.16.3
+opencv-python==4.9.0.80
